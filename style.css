@@ -1,0 +1,40 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  overflow: hidden;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 50vh;
+}
+
+.select-type {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+.select-type:focus {
+  outline: none;
+}
+
+.btn {
+  padding: 40px;
+  margin: 10px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

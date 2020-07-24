@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    
+}
+
+.select-type {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #000;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.btn {
+    padding: 40px;
+    margin: 10px;
+    cursor: pointer;
+
+}
+
